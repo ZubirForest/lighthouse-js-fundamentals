@@ -12,7 +12,6 @@ const calculateRectangleArea = function (length, width) {
 
 const calculateTriangleArea = function (base, height) {
 
-  let area = (base * height) / 2;
   if (base < 0 || height < 0) {
     area = undefined;
   }
